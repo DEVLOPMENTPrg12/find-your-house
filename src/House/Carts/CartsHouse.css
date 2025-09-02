@@ -1,0 +1,159 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f9;
+    margin: 0;
+    padding: 0;
+}
+
+/* إضافة هامش علوي لحل مشكلة عدم ظهور المحتوى بسبب Nav */
+.cart-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px; /* يجب أن يكون أكبر من ارتفاع الـ Nav */
+    padding: 20px;
+}
+
+/* تحسين مظهر العنصر */
+.carts {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: white;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    margin-bottom: 20px;
+    width: 90%;
+    max-width: 800px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.carts:hover {
+    transform: translateY(-5px);
+}
+
+.imageCart {
+    width: 200px; /* زيادة العرض */
+    height: 150px; /* زيادة الارتفاع */
+    border-radius: 10px;
+    object-fit: cover; /* ضمان أن الصورة تملأ المساحة بدون تشوه */
+}
+
+.cart-info {
+    flex: 1;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.name {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+}
+
+.price {
+    color: #ff9800;
+    font-size: 18px;
+}
+
+.quantity-controls {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.qunt {
+    background: none;
+    border: none;
+    font-size: 22px;
+    cursor: pointer;
+    color: black;
+}
+
+.qunt:hover {
+    color: gray;
+}
+
+.qntn {
+    font-size: 18px;
+    font-weight: bold;
+    min-width: 30px;
+    text-align: center;
+}
+
+
+.cart-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.book1, .delet {
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+    text-align: center;
+    min-width: 120px;
+}
+
+.book1 {
+    background-color: #1976D2;
+    color: white;
+    border: none;
+}
+
+.book1:hover {
+    background-color: #1565C0;
+}
+
+.delet {
+    background-color: #D32F2F;
+    color: white;
+    border: none;
+}
+
+.delet:hover {
+    background-color: #B71C1C;
+}
+
+.total {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    color: #1976D2;
+    margin-top: 20px;
+}
+
+.empty {
+    text-align: center;
+    font-size: 30px;
+    
+    font-weight: bold;
+    color: #D32F2F;
+    margin-top: 300px;
+}
+
+/* تحسين استجابة التصميم */
+@media (max-width: 768px) {
+    .carts {
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .cart-info {
+        align-items: center;
+        margin-left: 0;
+    }
+
+    .cart-buttons {
+        flex-direction: row;
+        justify-content: center;
+        gap: 15px;
+    }
+}

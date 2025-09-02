@@ -1,0 +1,132 @@
+/* ✅ تحسين الخطوط والألوان */
+:root {
+    --primary-color: #ff7b00; 
+    --secondary-color: #f5f5f5;
+    --text-color: #eee;
+    --hover-color: #ff9f33;
+    --bg-color: #222;
+  }
+  
+  /* ✅ تنسيق الـ Footer بالكامل */
+  .footer {
+    background: var(--bg-color);
+    color: var(--text-color);
+    padding: 3rem 0;
+    font-family: "Tajawal", sans-serif;
+  }
+  
+  .footer-container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 2rem;
+    align-items: flex-start;
+  }
+  
+  /* ✅ تنسيق القسم الأيسر */
+  .footer-left {
+    flex: 1;
+    min-width: 250px;
+  }
+  
+  .footer-logo {
+    width: 130px;
+    margin-bottom: 1rem;
+  }
+  
+  .footer-text {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: var(--secondary-color);
+  }
+  
+  /* ✅ تنسيق القسم الأوسط */
+  .footer-center {
+    flex: 1;
+    text-align: center;
+    min-width: 250px;
+  }
+  
+  .footer-title {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+    color: var(--primary-color);
+  }
+  
+  .footer-menu {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-menu li {
+    margin-bottom: 0.7rem;
+  }
+  
+  .footer-menu a {
+    text-decoration: none;
+    color: var(--text-color);
+    font-weight: 600;
+    transition: color 0.3s;
+  }
+  
+  .footer-menu a:hover {
+    color: var(--hover-color);
+  }
+  
+  /* ✅ تنسيق القسم الأيمن */
+  .footer-right {
+    flex: 1;
+    min-width: 250px;
+    text-align: right;
+  }
+  
+  .footer-right .footer-text {
+    margin-bottom: 0.5rem;
+  }
+  
+  .social-icons {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+  
+  .social-icons a {
+    color: var(--text-color);
+    font-size: 1.2rem;
+    transition: color 0.3s;
+  }
+  
+  .social-icons a:hover {
+    color: var(--hover-color);
+  }
+  
+  /* ✅ حقوق النشر */
+  .footer-bottom {
+    text-align: center;
+    margin-top: 2rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    padding-top: 1rem;
+    font-size: 0.85rem;
+    color: var(--secondary-color);
+  }
+  
+  /* ✅ تحسين التجاوب */
+  @media (max-width: 768px) {
+    .footer-container {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .footer-left, .footer-center, .footer-right {
+      align-items: center;
+      text-align: center;
+    }
+  
+    .footer-right {
+      text-align: center;
+    }
+  }
+  

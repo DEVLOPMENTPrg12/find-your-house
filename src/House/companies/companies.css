@@ -1,0 +1,14 @@
+.c-container{
+    padding: 1.5rem;
+    width: 100%;
+    display: flex;
+    row-gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 1rem;
+}
+.c-container>img{
+    width: 9rem;
+}

@@ -1,0 +1,141 @@
+.hero-container{
+    display: flex;
+    row-gap: 2rem;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    padding: 1.5rem;
+    width: 100%;
+}
+
+.hero-wrapper{
+    color: #111;
+    position: relative;
+    padding-bottom: 2rem;
+    background: linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%);
+    z-index: 1;
+    border-bottom: 1px solid rgba(0,0,0,0.05);
+}
+
+.hero-left{
+    display: flex;
+    margin-bottom: 20px;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 15px;
+    align-items: flex-start; /* بدلنا من flex-end ل flex-start */
+}
+
+.hero-des{
+    gap: 1.2rem; /* نقصنا gap باش يقرب النصوص شوية */
+    display: flex;
+    margin-right: 0; /* حيدنا 70px باش يجي موازِي */
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start; /* خلي النصوص تبعو نفس المحاذاة ديال العنوان */
+}
+
+.hero-right{
+    margin-top: 50px;
+}
+
+
+
+.hero-title{
+   position: relative;
+   z-index: 1; 
+}
+
+.orange-cicle{
+    height: 4rem;
+    width: 4rem;
+    background: linear-gradient(135deg, #ff9900, #ff6600);
+    right: 28%;
+    top: -10px;
+    z-index:-1;
+    border-radius: 999px;
+    position: absolute;
+    box-shadow: 0 8px 20px rgba(255, 165, 0, 0.4);
+}
+
+.stats{
+    display: flex;
+    row-gap: 2rem;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.stat{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.stat>:nth-child(1){
+    font-size: 2.2rem;
+    font-weight: bold;
+    color: #111;
+}
+
+.plus{
+    color: #ff7a00;
+    font-weight: bold;
+}
+
+.tt{
+    color: #777;
+    font-size: 0.9rem;
+}
+
+.des{
+    color: #555;
+    font-size: 1rem;
+}
+
+.hero-title>h1{
+    font-weight: 700;
+    font-size: 3.5rem;
+    line-height: 4rem;
+    color: #222;
+}
+
+.img1{
+    width: 30rem;
+    height: 35rem;
+    margin: 50px;
+    overflow: hidden;
+    border-radius: 15rem 15rem 0 0;
+    border: 6px solid rgba(0, 0, 0, 0.08);
+    box-shadow: 0px 10px 25px rgba(0,0,0,0.1);
+}
+
+.img1>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Responsive */
+@media (max-width:640px) {
+    .hero-container{
+        margin-top: 2rem;
+    }
+    .hero-title>h1{
+        font-size: 2.5rem;
+        line-height: 3rem;
+    }
+    .img1{
+        width: 95%;
+        height: 25rem;
+    }
+    .stats{
+        justify-content: center;
+        gap: 1.5rem;
+    }
+    .hero-right{
+        width: 100%;
+    }
+}
