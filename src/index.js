@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 
 
 
-
+import'./index.css';
 
 import Nav from './House/navigation/Nav';
 import Section from './House/Section/Section';

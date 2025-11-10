@@ -79,24 +79,30 @@ const data=
              "image3":"./rom.avif",
               "desc":"Enjoy a luxurious stay in this stunning beachfront home, where you can hear the waves of the ocean from your private terrace. The house features modern design with elegant furnishings and panoramic windows that offer breathtaking views of the clear blue water."
         },
-        // {
-        //     "name":"Asatti Garden City",
-        //     "price":"66,353",
-        //     "detail":"Pahlawan Street XVII NO.215,Sawangan,DEpok,Jawa Barat",
-        //     "image":"./h55.jpeg"
-        // },
-        // {
-        //     "name":"Citralan Puri Serang",
-        //     "price":"35,853",
-        //     "detail":"Ruko Puri Indah Residience Block A7,Lingkar Street,Ciracas,Serang,Banten",
-        //     "image":"./h66.jpeg"
-        // },
-        // {
-        //     "name":"Citralan Puri Serang",
-        //     "price":"35,853",
-        //     "detail":"Ruko Puri Indah Residience Block A7,Lingkar Street,Ciracas,Serang,Banten",
-        //     "image":"./h66.jpeg"
-        // },
+        {
+            "name":"Asatti Garden City",
+            "price":"66,353",
+            "detail":"Pahlawan Street XVII NO.215,Sawangan,DEpok,Jawa Barat",
+            "image":"./h55.jpeg",
+            "desc":"Enjoy a luxurious stay in this stunning beachfront home, where you can hear the waves of the ocean from your private terrace. The house features modern design with elegant furnishings and panoramic windows that offer breathtaking views of the clear blue water."
+
+        },
+        {
+            "name":"Citralan Puri Serang",
+            "price":"35,853",
+            "detail":"Ruko Puri Indah Residience Block A7,Lingkar Street,Ciracas,Serang,Banten",
+            "image":"./h66.jpeg",
+            "desc":"Enjoy a luxurious stay in this stunning beachfront home, where you can hear the waves of the ocean from your private terrace. The house features modern design with elegant furnishings and panoramic windows that offer breathtaking views of the clear blue water."
+
+        },
+        {
+            "name":"Citralan Puri Serang",
+            "price":"35,853",
+            "detail":"Ruko Puri Indah Residience Block A7,Lingkar Street,Ciracas,Serang,Banten",
+            "image":"./h66.jpeg",
+            "desc":"Enjoy a luxurious stay in this stunning beachfront home, where you can hear the waves of the ocean from your private terrace. The house features modern design with elegant furnishings and panoramic windows that offer breathtaking views of the clear blue water."
+
+        },
         // {
         //     "name":"Citralan Puri Serang",
         //     "price":"35,853",

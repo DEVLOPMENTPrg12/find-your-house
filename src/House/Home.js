@@ -10,19 +10,19 @@ import Getstarted from "../GetStarted/Getstarted";
 import Footer from "../Footer/Footer";
 
 
+
 export default function Home(){
     return(
         <div >
      
     <Nav/>
     <Section/>
-    <div className="home">
     <Companies/>
     
     <Residencies/>
     <Value/>
-    <Getstarted/>
-    </div>
+    <Footer/>
+
     
     
       </div>) 

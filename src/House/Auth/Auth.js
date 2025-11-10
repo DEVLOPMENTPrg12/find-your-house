@@ -86,9 +86,11 @@ const Auth = () => {
   };
 
   return (
+    <div>
+      <Nav/>
     <div className="body">
       <ToastContainer />
-      <Nav />
+      
       <div className={`container ${!isSignIn ? "right-panel-active" : ""}`}>
         {/* Sign In Form */}
         <div className="form-container sign-in-container">
@@ -144,6 +146,7 @@ const Auth = () => {
           </div>
         </div>
       </div>
+    </div>
     </div>
   );
 };

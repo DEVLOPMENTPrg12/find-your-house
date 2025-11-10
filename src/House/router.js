@@ -4,6 +4,7 @@ import Residencies from "./Residience/Residience";
 import CartsHouse from "./Carts/CartsHouse";
 import Auth from "./Auth/Auth";
 import Profile from "./Auth/profile";
+import Contact from "../Contact/contact";
 
 export default function Routeres(){
     return(
@@ -15,6 +16,7 @@ export default function Routeres(){
                 <Route path="/carts" element={<CartsHouse/>} />
                 <Route path="/auth" element={<Auth/>}/>
                 <Route path="/profile" element={<Profile/>} />
+                <Route path="/contact" element={<Contact/>} />
             </Routes>
             </BrowserRouter>
         </div>

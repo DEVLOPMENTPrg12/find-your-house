@@ -1,42 +1,50 @@
-import React from "react";
-import "./Footer.css";
+import React from 'react';
+import './Footer.css'; // Import the CSS file
 
 export default function Footer() {
-  return (
-    <footer className="footer">
-      <div className="footer-container">
-        {/* الجزء الأيسر */}
-        <div className="footer-left">
-          <img src="./logo1949.jpg" alt="Logo" className="footer-logo" />
-          <p className="footer-text">
-            Our vision is to make all people <br /> the best place to live for them.
-          </p>
-        </div>
-
-        {/* الجزء الأوسط */}
-        <div className="footer-center">
-          <h3 className="footer-title">Quick Links</h3>
-          <ul className="footer-menu">
-            <li><a href="#">Property</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Product</a></li>
-            <li><a href="#">About Us</a></li>
-          </ul>
-        </div>
-
-        {/* الجزء الأيمن */}
-        <div className="footer-right">
-          <h3 className="footer-title">Contact Us</h3>
-          <p className="footer-text">145 New York, FL 4571, USA</p>
-          <p className="footer-text">Email: contact@example.com</p>
-          <p className="footer-text">Phone: +1 234 567 890</p>
-        </div>
-      </div>
-
-      {/* حقوق النشر */}
-      <div className="footer-bottom">
-        <p>© {new Date().getFullYear()} All rights reserved.</p>
-      </div>
-    </footer>
-  );
+    return (
+        <footer className="footer">
+            <div className="footer-container">
+                <div className="footer-section">
+                    <h3>About Us</h3>
+                    <p>We help you find the most suitable properties with ease. Discover your dream home today!</p>
+                </div>
+                <div className="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#residencies">Residencies</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div className="footer-section">
+                    <h3>Contact Info</h3>
+                    <p>Email: info@yourproperty.com</p>
+                    <p>Phone: +212 123 456 789</p>
+                    <p>Address: Casablanca, Morocco</p>
+                </div>
+                <div className="footer-section">
+                    <h3>Follow Us</h3>
+                    <div className="social-links">
+                        <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+                            <i className="bi bi-facebook"></i>
+                        </a>
+                        <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+                            <i className="bi bi-twitter"></i>
+                        </a>
+                        <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+                            <i className="bi bi-instagram"></i>
+                        </a>
+                        <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+                            <i className="bi bi-linkedin"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div className="footer-bottom">
+                <p>&copy; 2023 Your Property Site. All rights reserved.</p>
+            </div>
+        </footer>
+    );
 }

@@ -6,6 +6,7 @@ import sliderSettings from "../utils/common";
 import React, { useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { addTocart, setSearchQuery } from "../redux/slice";
+import Nav from "../navigation/Nav";
 
 export default function Residencies() {
   const dispatch = useDispatch();
@@ -55,6 +56,7 @@ export default function Residencies() {
 
   return (
     <div>
+      <Nav/>
       <section className="r-wrapper">
         <div className="r-container">
           <div className="r-head">

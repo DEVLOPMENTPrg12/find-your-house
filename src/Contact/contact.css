@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.contact_container{
+    padding: 40px 40px;
+    width: 100%;
+    background: #f6f6f6;
+}
+.contact_container .contant{
+    padding: 10px 20px;
+    max-width: 100%;
+}
+.contact_container .contant h2{
+    text-transform: uppercase;
+    font-size: 32px;
+    color: #010f1c;
+    font-weight: 600;
+    text-align: center;
+    padding: 20px;
+    
+}
+.contact_container .contant h2::before {
+    position: absolute;
+    left: 40%;
+    /* bottom: 0; */
+    content: "";
+    background-color: #ea1f33;
+    width: 210px;
+    height: 5px;
+    margin-top: -5px;
+    border-radius: 6px;
+}
+.contact_container .contant h2::after {
+    position: absolute;
+    /* top: 0; */
+    /* left: -10px; */
+    right: 40%;
+    content: "";
+    background-color: #ea1f33;
+    width: 210px;
+    height: 5px;
+    margin-top: 35px;
+    border-radius: 6px;
+}
+
+.contact_container .contant .form{
+    padding: 20px 30px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: rgba(0,0,0,0.24) 0px 3px 8px;
+}
+.contact_container .contant .form form{
+    display: flex;
+    flex-direction: column;
+}
+.contact_container .contant .form form input{
+    padding: 10px 30px;
+    border: none;
+    outline: none;
+    background: none;
+    border-bottom: 1px solid #010f1c;
+    width: 350px;
+    margin-top: 20px;
+    margin-left: 35%;
+}
+.contact_container .contant .form form textarea{
+    padding: 10px 30px;
+    border: none;
+    outline: none;
+    background: none;
+    border-bottom: 1px solid #010f1c;
+    max-width: 350px;
+    margin-top: 20px;
+    margin-left: 35% ;
+    resize: none;
+}
+.contact_container .contant .form form button{
+    margin-top: 30px;
+    width: 100px;
+    padding: 10px 0px;
+    border: none;
+    outline: none;
+    background:#ea1f33;
+    margin-left: 35%;
+    color: #fff;
+    width: 32%;
+    cursor: pointer;
+}
