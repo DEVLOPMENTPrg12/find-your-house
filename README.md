@@ -20,7 +20,7 @@ FindYourHouse is a modern web application built with **React.js** and **Firebase
 <p align="center">
   <img src="https://img.shields.io/badge/React-18.2.0-blue?logo=react&logoColor=white" alt="React Badge"/>
   <img src="https://img.shields.io/badge/Firebase-9.0+-ffca28?logo=firebase&logoColor=white" alt="Firebase Badge"/>
-  <img src="https://img.shields.io/badge/Bootstrap-5.3-purple?logo=bootstrap&logoColor=white" alt="Bootstrap Badge"/>
+  <img src="https://img.shields.io/badge/Bootstrap-5.3-purple?logo=bootstrap&logoColor=white" alt="Css Badge"/>
   <img src="https://img.shields.io/badge/JavaScript-ES6-yellow?logo=javascript&logoColor=white" alt="JavaScript Badge"/>
   <img src="https://img.shields.io/badge/Hosted_on-Vercel-black?logo=vercel&logoColor=white" alt="Vercel Badge"/>
 </p>
